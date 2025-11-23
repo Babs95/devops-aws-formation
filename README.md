@@ -88,6 +88,14 @@
 - [ ] **Réseaux** : TCP/IP, DNS, HTTP/HTTPS concepts de base
 - [ ] **JSON/YAML** : Lecture et écriture de fichiers de configuration
 
+> 💡 **Besoin de renforcer vos bases ?**
+>
+> **[→ Semaine 0 : Modules Prérequis Détaillés](./modules/semaine-00-prerequis/)**
+> - **[Linux de Base](./modules/semaine-00-prerequis/01-linux-base.md)** (10-15h) : Navigation, permissions, processus, éditeurs
+> - **[Réseaux de Base](./modules/semaine-00-prerequis/02-reseaux-base.md)** (8-12h) : TCP/IP, DNS, HTTP/HTTPS, outils de diagnostic
+>
+> Ces modules sont OPTIONNELS. Si vous maîtrisez déjà Linux et les réseaux, passez directement à la Semaine 1.
+
 #### Setup Initial
 
 ```bash
@@ -129,6 +137,14 @@ sudo mv terraform /usr/local/bin/
 ---
 
 ## 📅 Timeline Détaillée
+
+### Phase 0 : Prérequis (Optionnel, avant de commencer)
+
+**Semaine 0 : Linux et Réseaux** *(Si besoin de renforcement)*
+- Linux de base : Navigation, permissions, processus, éditeurs (10-15h)
+- Réseaux : TCP/IP, DNS, HTTP/HTTPS, outils diagnostic (8-12h)
+- **Validation** : Checklists à 80%+
+- **[→ Voir les modules détaillés](./modules/semaine-00-prerequis/)**
 
 ### Phase 1 : Fondations (Semaines 1-2)
 
@@ -736,6 +752,7 @@ echo "Cleanup terminé ! Vérifiez AWS Console pour confirmer."
 
 1. ⬜ **Lire ce README complètement**
 2. ⬜ **Vérifier les prérequis techniques**
+   - Si besoin : **[Semaine 0 - Prérequis](./modules/semaine-00-prerequis/)** (Linux + Réseaux)
 3. ⬜ **Créer compte AWS et configurer MFA**
 4. ⬜ **Installer AWS CLI et outils**
 5. ⬜ **Démarrer Semaine 1** → `/modules/semaine-01/`
